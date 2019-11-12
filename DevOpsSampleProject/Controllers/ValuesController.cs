@@ -18,6 +18,7 @@ namespace DevOpsSampleProject.Controllers
         }
 
         // GET api/values/5
+        [Route("Get/{id}")]
         public string Get(int id)
         {
             return "value";
